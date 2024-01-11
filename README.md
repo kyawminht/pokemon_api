@@ -29,23 +29,23 @@
 
     <li>Clone the repository to your local machine:</li>
 
-    <pre><code>git clone https://github.com/your-username/pokemon-api.git</code></pre>
+  <code>git clone https://github.com/your-username/pokemon-api.git</code>
 
     <li>Navigate to the project directory:</li>
 
-    <pre><code>cd pokemon-api</code></pre>
+ <code>cd pokemon-api</code>
 
     <li>Install PHP dependencies:</li>
 
-    <pre><code>composer install</code></pre>
+   <code>composer install</code>
 
     <li>Install JavaScript dependencies:</li>
 
-    <pre><code>npm install</code></pre>
+  <code>npm install</code>
 
     <li>Create a copy of the <code>.env.example</code> file and rename it to <code>.env</code>:</li>
 
-    <pre><code>cp .env.example .env</code></pre>
+    <code>cp .env.example .env</code>
 
     <li>Generate the application key:</li>
 
@@ -55,7 +55,7 @@
 
     <li>Run migrations and seed the database with fake data:</li>
 
-    <pre><code>php artisan migrate:fresh --seed</code></pre>
+    <code>php artisan migrate:fresh --seed</code>
 
 
 <h3>Usage</h3>
