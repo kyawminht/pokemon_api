@@ -26,25 +26,26 @@
 
 <h3>Installation</h3>
 
+<ol>
+    <li>Clone the repository to your local machine:</li>
 
-    Clone the repository to your local machine
+    <pre><code>git clone https://github.com/your-username/pokemon-api.git</code></pre>
 
-  <code>git clone https://github.com/your-username/pokemon-api.git</code>
+    <li>Navigate to the project directory:</li>
 
- Navigate to the project directory
+    <pre><code>cd pokemon-api</code></pre>
 
- <code>cd pokemon-api</code>
+    <li>Install PHP dependencies:</li>
 
-   Install PHP dependencies:
+    <pre><code>composer install</code></pre>
 
-   <code>composer install</code>
+    <li>Install JavaScript dependencies:</li>
 
-  Install JavaScript dependencies
-  <code>npm install</code>
+    <pre><code>npm install</code></pre>
 
-    Create a copy of the <code>.env.example</code> file and rename it to <code>.env</code>:
+    <li>Create a copy of the <code>.env.example</code> file and rename it to <code>.env</code>:</li>
 
-    <code>cp .env.example .env</code>
+    <pre><code>cp .env.example .env</code></pre>
 
     <li>Generate the application key:</li>
 
@@ -54,8 +55,8 @@
 
     <li>Run migrations and seed the database with fake data:</li>
 
-    <code>php artisan migrate:fresh --seed</code>
-
+    <pre><code>php artisan migrate:fresh --seed</code></pre>
+</ol>
 
 <h3>Usage</h3>
 
@@ -67,6 +68,7 @@
 
 <p>Feel free to explore the API endpoints and test it out with the provided fake data.</p>
 
+<h2>Thank you!</h2>
 
 <p>Thank you for checking out my Pokemon API project! If you have any questions or feedback, please don't hesitate to reach out.</p>
 
