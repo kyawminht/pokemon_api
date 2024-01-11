@@ -26,7 +26,7 @@
 
 <h3>Installation</h3>
 
-<ol>
+
     <li>Clone the repository to your local machine:</li>
 
     <pre><code>git clone https://github.com/your-username/pokemon-api.git</code></pre>
@@ -56,7 +56,7 @@
     <li>Run migrations and seed the database with fake data:</li>
 
     <pre><code>php artisan migrate:fresh --seed</code></pre>
-</ol>
+
 
 <h3>Usage</h3>
 
