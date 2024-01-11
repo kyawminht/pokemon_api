@@ -27,23 +27,22 @@
 <h3>Installation</h3>
 
 
-    <li>Clone the repository to your local machine:</li>
+    Clone the repository to your local machine
 
   <code>git clone https://github.com/your-username/pokemon-api.git</code>
 
-    <li>Navigate to the project directory:</li>
+ Navigate to the project directory
 
  <code>cd pokemon-api</code>
 
-    <li>Install PHP dependencies:</li>
+   Install PHP dependencies:
 
    <code>composer install</code>
 
-    <li>Install JavaScript dependencies:</li>
-
+  Install JavaScript dependencies
   <code>npm install</code>
 
-    <li>Create a copy of the <code>.env.example</code> file and rename it to <code>.env</code>:</li>
+    Create a copy of the <code>.env.example</code> file and rename it to <code>.env</code>:
 
     <code>cp .env.example .env</code>
 
