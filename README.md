@@ -1,61 +1,75 @@
-Pokemon API using Laravel Sanctum
-Welcome to the Pokemon API project developed using Laravel Sanctum. This project serves as my submission for an interview task. If you'd like to test the API with fake data, follow the instructions below.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API using Laravel Sanctum</title>
+</head>
+<body>
 
-Getting Started
-Prerequisites
-Before running the project, make sure you have the following installed:
+<h1>Pokemon API using Laravel Sanctum</h1>
 
-PHP
-Composer
-Node.js
-NPM
-Installation
-Clone the repository to your local machine:
+<p>Welcome to the Pokemon API project developed using Laravel Sanctum. This project serves as my submission for an interview task. If you'd like to test the API with fake data, follow the instructions below.</p>
 
-bash
-Copy code
-git clone https://github.com/your-username/pokemon-api.git
-Navigate to the project directory:
+<h2>Getting Started</h2>
 
-bash
-Copy code
-cd pokemon-api
-Install PHP dependencies:
+<h3>Prerequisites</h3>
 
-bash
-Copy code
-composer install
-Install JavaScript dependencies:
+<p>Before running the project, make sure you have the following installed:</p>
 
-bash
-Copy code
-npm install
-Create a copy of the .env.example file and rename it to .env:
+<ul>
+    <li><a href="https://www.php.net/manual/en/install.php">PHP</a></li>
+    <li><a href="https://getcomposer.org/">Composer</a></li>
+    <li><a href="https://nodejs.org/">Node.js</a></li>
+    <li><a href="https://www.npmjs.com/">NPM</a></li>
+</ul>
 
-bash
-Copy code
-cp .env.example .env
-Generate the application key:
+<h3>Installation</h3>
 
-bash
-Copy code
-php artisan key:generate
-Set up your database configuration in the .env file.
+<ol>
+    <li>Clone the repository to your local machine:</li>
 
-Run migrations and seed the database with fake data:
+    <pre><code>git clone https://github.com/your-username/pokemon-api.git</code></pre>
 
-bash
-Copy code
-php artisan migrate:fresh --seed
-Usage
-Start the development server:
+    <li>Navigate to the project directory:</li>
 
-bash
-Copy code
-php artisan serve
-The API will be available at http://localhost:8000.
+    <pre><code>cd pokemon-api</code></pre>
 
-Feel free to explore the API endpoints and test it out with the provided fake data.
+    <li>Install PHP dependencies:</li>
+
+    <pre><code>composer install</code></pre>
+
+    <li>Install JavaScript dependencies:</li>
+
+    <pre><code>npm install</code></pre>
+
+    <li>Create a copy of the <code>.env.example</code> file and rename it to <code>.env</code>:</li>
+
+    <pre><code>cp .env.example .env</code></pre>
+
+    <li>Generate the application key:</li>
+
+    <pre><code>php artisan key:generate</code></pre>
+
+    <li>Set up your database configuration in the <code>.env</code> file.</li>
+
+    <li>Run migrations and seed the database with fake data:</li>
+
+    <pre><code>php artisan migrate:fresh --seed</code></pre>
+</ol>
+
+<h3>Usage</h3>
+
+<p>Start the development server:</p>
+
+<pre><code>php artisan serve</code></pre>
+
+<p>The API will be available at <a href="http://localhost:8000">http://localhost:8000</a>.</p>
+
+<p>Feel free to explore the API endpoints and test it out with the provided fake data.</p>
 
 
-Thank you for checking out my Pokemon API project! If you have any questions or feedback, please don't hesitate to reach out.
+<p>Thank you for checking out my Pokemon API project! If you have any questions or feedback, please don't hesitate to reach out.</p>
+
+</body>
+</html>
